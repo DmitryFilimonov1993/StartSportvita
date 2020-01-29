@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.WelcomeFragment"
+        android:label="WelcomeFragment" />
+    <fragment
+        android:id="@+id/createSoftAccountFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.CreateSoftAccountFragment"
+        android:label="CreateSoftAccountFragment" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.ForgotPasswordFragment"
+        android:label="ForgotPasswordFragment" />
+    <fragment
+        android:id="@+id/softAccountIntroFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.SoftAccountIntroFragment"
+        android:label="SoftAccountIntroFragment" />
+    <fragment
+        android:id="@+id/onboardingQuizFragment"
+        android:name="com.example.sportstation.sign_up_flow.fragments.OnboardingQuizFragment"
+        android:label="OnboardingQuizFragment" />
+</navigation>

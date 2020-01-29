@@ -14,12 +14,79 @@
         <item name="android:textSize">28dp</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:fontFamily">@font/roboto_bold</item>
-    </style> 
-    
+    </style>
+
+    <style name="bold_black_text" parent="TextAppearance.AppCompat">
+
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="skip_style_text" parent="TextAppearance.AppCompat">
+
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
     <style name="default_text_style" parent="TextAppearance.AppCompat">
 
         <item name="android:textSize">16dp</item>
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="default_black_text_style" parent="TextAppearance.AppCompat">
+
+        <item name="android:textSize">16dp</item>
+        <item name="android:drawableRight">@drawable/icon_arrow_skip_black</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="bottom_sheet" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="android:background">@drawable/white_field</item>
+    </style>
+
+    <style name="style_button_log_in" parent="TextAppearance.AppCompat.Button">
+
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/button_shape_gray</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="style_create_soft_account" parent="TextAppearance.AppCompat.Button">
+
+        <item name="android:textSize">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/button_shape_white</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="style_email_layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorBlack</item>
+        <item name="android:hint">@string/email</item>
+        <item name="hintTextAppearance">@style/hint</item>
+    </style>
+
+    <style name="style_password_layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorBlack</item>
+        <item name="android:hint">@string/password</item>
+        <item name="hintTextAppearance">@style/hint</item>
+    </style>
+    <style name="hint" parent="TextAppearance.AppCompat.Caption">
+        <item name="counterOverflowTextAppearance">@style/hint_over_flow_appearance</item>
+    </style>
+    <style name="hint_over_flow_appearance" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorGray</item>
     </style>
 </resources>

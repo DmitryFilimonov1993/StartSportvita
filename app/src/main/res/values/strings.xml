@@ -4,4 +4,11 @@
     <string name="text_info_first_screen">Manage your running
         results on the sportstation course and publish your
         best results in various rankings.</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="text_skip">Skip</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_soft_acc_button">Create Soft account</string>
+    <string name="forgot_password">Forgot password</string>
 </resources>
