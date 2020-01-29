@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sportstation</string>
+    <string name="title_first_screen">Sportstation</string>
+    <string name="text_info_first_screen">Manage your running
+        results on the sportstation course and publish your
+        best results in various rankings.</string>
+</resources>
